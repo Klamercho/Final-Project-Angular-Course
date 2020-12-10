@@ -46,7 +46,7 @@ module.exports = {
                             'Accuracy, attention to detail, and excellent research skills.',
                             'Previous experience in a back office, verifications, or customer support role will be considered an advantage.'
                         ],
-                        location: 'Sofia'
+                        location: 'Varna'
                     },
                     {
                         jobName: "Business Researcher",
