@@ -5,5 +5,6 @@ module.exports = (express, app) => {
   app.use('/user', routers.userRouter);
   app.use('/careers', routers.careersRouter);
   app.use('/clients', routers.clientsRouter);
+  app.use('/news', routers.newsRouter)
  
 };

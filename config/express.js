@@ -12,5 +12,4 @@ module.exports = (express, app) => {
     app.use(cookieParser());
     // this is where Authur should be 
     app.use(auth);
-    
 };

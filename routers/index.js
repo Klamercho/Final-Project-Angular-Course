@@ -1,7 +1,8 @@
 const routers = [
     {userRouter: require('./userRouter')},
     {careersRouter: require('./careersRouter')},
-    {clientsRouter: require('./clientsRouter')}
+    {clientsRouter: require('./clientsRouter')},
+    {newsRouter: require('./newsRouter')}
 
 ]
 
