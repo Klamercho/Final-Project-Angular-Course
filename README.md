@@ -29,6 +29,19 @@ KLM е компания, предлагаща услуги в сферата н�
 В долната секция "Възможности и функционалности" са описани всички детайли по различните страници. 
 
 
+## :bookmark_tabs: Features and Functionalities
+
+In this section all of included pages will be discussed - their functionalities, purpose and elements: 
+
+1. Home page - A simple video background with some welcoming textbox. This page changes the Header component's text color to make it more visible on the video background. 
+2. Services - Page which includes a simple overview of available services provided by the company. Links at the bottom lead to the "Culture" section. 
+3. About us - Page which shows current employees of the company at the bottom. It also provides information about the company's core ideology 
+4. Clients - Page which sends a GET request to the backend and visualizes the current list of Companies, KLM works with. It also includes their testimonies at the bottom. It includes the currently encorporated processes KLM provides for these customers 
+5. Culture - Page which outlines the company's culture and values. 
+6. Careers - Page which sends a GET request to the backend and displays all of the currently available career opportunities within the company. Users can use the filters to serch for a specific opportunity based on their prefferred location or keyword. When users search, a post request is send to the backend and then handleded to display only the relevant data. Each career can be clicked by unregistered users to get information about it. When a career is clicked, it redirects to a careers-details page
+7. Careers-Details - Page which contains information about a specific career. It sends a POST request with information about the career ID and then displays the response. If the user is not currently logged in the website, it will display a "Log in" Button, which the user can click to be redirected to the login page. If the user is logged, he can apply for the position, by clicking the "Apply" or he can logout by clicking the "Log out" button - which deletes the JWT token in their local storage. After a user applies for a position, it is added to their list of applied positions and a new message will be displayed on the screen, saying the user has already applied for that career. 
+8. LogIn - 
+
 # AttemptTwo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
