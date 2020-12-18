@@ -19,7 +19,6 @@ import { ClientsComponent } from './clients/clients.component';
 import { CultureComponent } from './culture/culture.component';
 import { CareersComponent } from './careers/careers.component';
 import { NewsComponent } from './news/news.component';
-import { BlogComponent } from './blog/blog.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CareerDetailsComponent } from './career-details/career-details.component';
@@ -40,7 +39,6 @@ import { RegisterComponent } from './register/register.component';
     CultureComponent,
     CareersComponent,
     NewsComponent,
-    BlogComponent,
     ContactsComponent,
     CareerDetailsComponent,
     LoginComponent,
