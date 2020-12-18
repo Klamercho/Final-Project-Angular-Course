@@ -16,7 +16,6 @@ export class HeaderComponent {
     ["culture", "Culture"],
     ["careers", "Careers"],
     ["news", "News"],
-    ["blog", "Blog"],
     ["contacts", "Contacts"]
   ]
 
