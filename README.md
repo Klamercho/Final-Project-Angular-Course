@@ -40,7 +40,24 @@ In this section all of included pages will be discussed - their functionalities,
 5. Culture - Page which outlines the company's culture and values. 
 6. Careers - Page which sends a GET request to the backend and displays all of the currently available career opportunities within the company. Users can use the filters to serch for a specific opportunity based on their prefferred location or keyword. When users search, a post request is send to the backend and then handleded to display only the relevant data. Each career can be clicked by unregistered users to get information about it. When a career is clicked, it redirects to a careers-details page
 7. Careers-Details - Page which contains information about a specific career. It sends a POST request with information about the career ID and then displays the response. If the user is not currently logged in the website, it will display a "Log in" Button, which the user can click to be redirected to the login page. If the user is logged, he can apply for the position, by clicking the "Apply" or he can logout by clicking the "Log out" button - which deletes the JWT token in their local storage. After a user applies for a position, it is added to their list of applied positions and a new message will be displayed on the screen, saying the user has already applied for that career. 
-8. LogIn - 
+8. LogIn - Page which contains an Angular Materials form, which when filled sends a request to the server to check if a user with the given credentials exist or not. If it exists, a JWT token is send and is stored in the local storage and the user is redirected to the careers page. If the user does not have a registration on the platform, they can register by clicking the "register now" button, which would redirect them to the Register page. 
+9. Register - Page which contains an Angular Materials form, which when filled correctly - sends a POST request to the server to register a new user in the database. When a new user is successfuly created, the user is redirected to the log in page.
+10. News - Page which sends a GET request to the backend and displays response in the form of news about the company.
+
+
+
+## :thought_balloon: Future improvements
+
+There are many areas where this project could be improved. Below are outlined some of the key-ones, which are obvious setbacks. 
+
+1. Fixing missing links - there are many sections of the website, which are missing a link or could link to somewhere else. For example in the services - each service can link to its own page, where more details can be given about it. 
+2. When applying for a career, the user should be prompted to include at least their CV and some contact information. Further, in addition to having the career ID saved in the User data, each career should hold a list of the IDs of users, that have applied for it. 
+3. Adding an admin section where information can be easily added to the backend database. For example if a new customer is signed, their information can be added via special section of the webpage. 
+
+~~~~ Below is information from the original Readme file ~~~~ 
+
+
+
 
 # AttemptTwo
 
