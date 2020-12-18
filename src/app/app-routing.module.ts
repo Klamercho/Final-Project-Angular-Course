@@ -7,7 +7,6 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { CultureComponent } from './culture/culture.component';
 import { ClientsComponent } from './clients/clients.component';
 import { NewsComponent } from './news/news.component';
-import { BlogComponent } from './blog/blog.component';
 import { ServicesComponent } from './services/services.component';
 import { CareerDetailsComponent } from './career-details/career-details.component';
 import { LoginComponent } from './login/login.component';
@@ -33,11 +32,6 @@ const routes: Routes = [
     path: 'services',
     pathMatch: 'full',
     component: ServicesComponent,
-  },
-  {
-    path: 'blog',
-    pathMatch: 'full',
-    component: BlogComponent,
   },
   {
     path: 'news',
